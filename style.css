@@ -1,28 +1,97 @@
-div {
-    height: 50px;
+* {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.top {
-    width: 100%;
-    background-color: green;
-    text-align: center;
-    }
-    .left {
-    float: left;   
-    width: 49%;
-    margin-right: 2%;
-    background-color: orange;
-    text-align: center;
-    }
+header {
+    position: relative;
+    top:20px;
+    width: 850px;
+    height: 340px;
+    margin: auto;
+    padding-bottom: 20px;
+    background-image: url(https://i.pinimg.com/originals/01/98/6e/01986edff828f90bb94d609ac8658155.jpg);
+}
 
-    .right {
-        float: left;   
-    width: 49%;
-    background-color: orange;
+#profile_name {
+    position: relative;
+    left: 220px;
+    bottom: -50px;
+    color: papayawhip;
+}
+
+nav {
+    float: right;
+}
+
+/* span {
+    width: auto;
+    height: auto;
+} */
+
+span > img {
+    position: relative;
+    top: 180px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+nav {
+    display: inline;
+}
+
+
+.hover-bar {
+    position: relative;
+    width: inherit;
+    top: 50px;
+    margin: inherit;
+    background-color: khaki;
+    padding-top: 4px;
+    color: cornflowerblue;
     text-align: center;
-    }
-.bottom {
-    width: 10%;
-    background-color: maroon;
+}
+
+details {
+    display: inline;
+}
+
+main {
+    width: 850px;
+    height: 80vh;
+    columns: 200px 2;
+}
+
+#page   {
+    width: 850px;
+    columns: 2 auto;
+}
+.first  {
+    position: relative;
+    width: 328px;
+    height: 167px;
+    margin-top: 67px;
+    left: -42px;
+    border: 2px solid black;
+}
+
+.second {
+    position: relative;
+    width: 512px;
+    height: 250px;
+    top: 147px;
+    right: 94px;
+    border: 2px solid black;
+}
+
+footer {
+    position: relative;
+    width: 850px;
+    border: 2px solid green;
+    bottom: 5px;
     text-align: center;
 }
